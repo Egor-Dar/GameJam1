@@ -42,7 +42,7 @@ public class PlayerMove : MonoBehaviour
     private void move(Vector2 moveDirection)
     {
         transform.position += transform.right * moveDirection.x * moveSpeed * Time.deltaTime;
-        _playerSprite.flipX = moveDirection.x > 0 ? true : false;
+        _playerSprite.flipX = moveDirection.x > 0 ? false : true;
     }
 
     private void jump()

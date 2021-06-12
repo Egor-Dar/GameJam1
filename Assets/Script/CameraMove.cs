@@ -11,6 +11,6 @@ public class CameraMove : MonoBehaviour
     
     private void Update()
     {
-        transform.position = new Vector3(Player.position.x + shiftCam.x * (Player.GetComponent<SpriteRenderer>().flipX? 1:-1), Player.position.y + shiftCam.y, shiftCam.z);
+        transform.position = new Vector3(Player.position.x + shiftCam.x * (Player.GetComponent<SpriteRenderer>().flipX? -1:1), Player.position.y + shiftCam.y, shiftCam.z);
     }
 }
