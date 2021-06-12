@@ -9,7 +9,8 @@ public class PlayerMove : MonoBehaviour
     private bool DrawBox;
     [SerializeField] private Transform graundCheckTransform;
     [SerializeField] private Vector2 boxSize;
-    
+    [SerializeField] private LayerMask mask;
+
 
     [Header("Player settings")]
     [SerializeField] private SpriteRenderer _playerSprite;
@@ -19,13 +20,7 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private float jumpForce;
     
     private InputController _input;
-    
-    [Space]
-    [Space]
-    [Space]
-    [SerializeField] private LayerMask mask;
-    
-    
+
     private void Awake()
     {   
         _input = new InputController();
