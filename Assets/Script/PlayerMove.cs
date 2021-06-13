@@ -20,10 +20,12 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private float jumpForce;
     
     private InputController _input;
-
+    private Animator anim;
+    
     private void Awake()
     {   
         _input = new InputController();
+        anim = GetComponent<Animator>();
         _input.Player.Jump.performed += context => jump();
         _playerSprite = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
@@ -37,6 +39,11 @@ public class PlayerMove : MonoBehaviour
         if (_input.Player.Move.ReadValue<Vector2>()!=Vector2.zero && IsGrounded())
         {
             move(_input.Player.Move.ReadValue<Vector2>());
+            anim.SetBool("run",true);
+        }
+        else
+        {
+            anim.SetBool("run",false);
         }
     }
     private void move(Vector2 moveDirection)
