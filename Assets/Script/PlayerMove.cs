@@ -91,7 +91,7 @@ public class PlayerMove : MonoBehaviour
 
     public void GameOver()
     {
-        Debug.Log("игра оконченна");
+        DieManager.Die();
     }
 
     public void SwitchCat(bool cat)
