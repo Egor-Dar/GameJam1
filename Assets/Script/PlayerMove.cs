@@ -44,7 +44,7 @@ public class PlayerMove : MonoBehaviour
         animCat.SetBool("isGround",IsGrounded());
         animCat.SetFloat("velosity", rb.velocity.y);
         
-        if (!IsGrounded() && rb.velocity.y < 0)
+        if (!IsGrounded() && (rb.velocity.y < -0.5f || rb.velocity.y > 0.5f))
         {
             SwitchCat(true);
             animCat.SetTrigger("fall");

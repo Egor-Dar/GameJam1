@@ -14,7 +14,11 @@ public class DieManager : MonoBehaviour
         _dieCanvas = dieCanvas;
     }
 
-    public void Restart() => SceneManager.LoadScene("Play");
+    public void Restart()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("Play");
+    }
 
     public static void Die()
     {
