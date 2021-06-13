@@ -11,7 +11,8 @@ public class MobileSystem : MonoBehaviour,IDragHandler, IBeginDragHandler, IEndD
     [SerializeField] private Image[] batteryIndicator = new Image[8];
     [SerializeField] private float LifeTime;
     [SerializeField] private GameObject Display;
-    
+    [Header("sound")]
+    [SerializeField] private AudioSource _source;
     private float[] lifeTimeStick=new float[8];
     private Vector3 _posStandart, _posOld;
     private bool IsGrab = false;
@@ -179,6 +180,7 @@ public class MobileSystem : MonoBehaviour,IDragHandler, IBeginDragHandler, IEndD
     public void OnBeginDrag(PointerEventData eventData)
     {
         IsGrab = true;
+        _source.enabled = true;
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -191,5 +193,6 @@ public class MobileSystem : MonoBehaviour,IDragHandler, IBeginDragHandler, IEndD
         _posOld = transform.localPosition;
         timer = 1;
         IsGrab = false;
+        _source.enabled = false;
     }
 }
