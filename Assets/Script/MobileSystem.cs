@@ -10,8 +10,9 @@ public class MobileSystem : MonoBehaviour,IDragHandler, IBeginDragHandler, IEndD
 {
     [SerializeField] private Image[] batteryIndicator = new Image[8];
     [SerializeField] private float LifeTime;
-
-    public float[] lifeTimeStick;
+    [SerializeField] private GameObject Display;
+    
+    private float[] lifeTimeStick=new float[8];
     private Vector3 _posStandart, _posOld;
     private bool IsGrab = false;
     private float timer = 0;
@@ -59,7 +60,12 @@ public class MobileSystem : MonoBehaviour,IDragHandler, IBeginDragHandler, IEndD
         #endregion
 
         if(IsGrab)
+        {
+            Display.SetActive(true);
             LifeTime -= Time.deltaTime;
+        }else
+            Display.SetActive(false);
+
     }
 
     private void shovStickPower(int sticks)

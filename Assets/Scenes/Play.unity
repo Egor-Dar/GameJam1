@@ -987,15 +987,7 @@ MonoBehaviour:
   - {fileID: 260249884}
   - {fileID: 1714622363}
   LifeTime: 100
-  lifeTimeStick:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
+  Display: {fileID: 442739228}
 --- !u!114 &117207826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1016,7 +1008,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 3894415531740123212, guid: 57fafffd36dbf3b4e97443e9af0f1ba0, type: 3}
+  m_Sprite: {fileID: -2324841123890698924, guid: d4a47e05c50bbc348a702a041050d958, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
