@@ -9,6 +9,7 @@ public class TriggerCam : MonoBehaviour
     private bool isTrigger;
     private string isTriggerName;
     private string TagCol;
+    public int Crystal=0;
 
 
 
