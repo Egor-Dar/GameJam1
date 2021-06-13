@@ -236,8 +236,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -171.88, y: 16.304}
-  m_SizeDelta: {x: 343.75507, y: 61.89563}
+  m_AnchoredPosition: {x: -26.21199, y: 16.304}
+  m_SizeDelta: {x: 635.0912, y: 61.89563}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &183242551
 MonoBehaviour:
@@ -272,7 +272,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '2D artists:'
+  m_Text: '2D artists: segler_swift, SvetozarShevchenko'
 --- !u!222 &183242552
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -944,8 +944,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -171.88, y: 78.2}
-  m_SizeDelta: {x: 343.75507, y: 61.89563}
+  m_AnchoredPosition: {x: -26.212, y: 78.2}
+  m_SizeDelta: {x: 635.0913, y: 61.89563}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &882401811
 MonoBehaviour:
@@ -980,7 +980,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Programmers:'
+  m_Text: "Programmers: Uamgl, MrDimaJ, \u0423\u0431\u043E \u0420\u0449\u0438\u043A#1768"
 --- !u!222 &882401812
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1683,8 +1683,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -171.88, y: -45.592}
-  m_SizeDelta: {x: 343.75507, y: 61.89563}
+  m_AnchoredPosition: {x: -26.212, y: -45.592}
+  m_SizeDelta: {x: 635.0912, y: 61.89563}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1849367934
 MonoBehaviour:
@@ -1719,7 +1719,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'sound engineer:'
+  m_Text: 'sound engineer: JETSKI_33'
 --- !u!222 &1849367935
 CanvasRenderer:
   m_ObjectHideFlags: 0
