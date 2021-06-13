@@ -7219,6 +7219,7 @@ MonoBehaviour:
   rb: {fileID: 395040039}
   moveSpeed: 14.2
   jumpForce: 40
+  catObject: {fileID: 0}
 --- !u!61 &395040038
 BoxCollider2D:
   m_ObjectHideFlags: 0
