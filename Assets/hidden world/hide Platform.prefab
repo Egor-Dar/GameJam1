@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 652653581566349073}
   - component: {fileID: 6530956547909351183}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: "\u0421\u043B\u043E\u0439 14"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,9 +68,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -2107514401
+  m_SortingLayer: 2
+  m_SortingOrder: 2
   m_Sprite: {fileID: -4459795239844706403, guid: 2bb79f512f5285e4f81fe6821fbc00fc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 3076929650454149620}
   - component: {fileID: 6346666454213838541}
   - component: {fileID: 2762463389920121078}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform_Centr
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -152,9 +152,9 @@ SpriteShapeRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -2107514401
+  m_SortingLayer: 2
+  m_SortingOrder: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_MaskInteraction: 0
   m_ShapeTexture: {fileID: 0}
@@ -223,7 +223,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6027734559875066807}
   - component: {fileID: 7166447239096833340}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: "\u0421\u043B\u043E\u0439 2"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -281,9 +281,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -2107514401
+  m_SortingLayer: 2
+  m_SortingOrder: 2
   m_Sprite: {fileID: 8047154130133556065, guid: 2bb79f512f5285e4f81fe6821fbc00fc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -304,7 +304,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7060736994291018794}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: hide Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
