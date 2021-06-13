@@ -44,3 +44,6 @@ TagManager:
   - name: Location
     uniqueID: 3374688795
     locked: 0
+  - name: CyberPunk
+    uniqueID: 2187452895
+    locked: 0
